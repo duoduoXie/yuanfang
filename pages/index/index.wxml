@@ -1,0 +1,20 @@
+<!--pages/index/index.wxml-->
+<Tabs></Tabs>
+<text selectable decode>你所爱的，都在&nbsp;这里</text>
+<icon type="success" color="#0094aa"></icon>
+<navigator url="/pages/wl/wl">点击跳转</navigator>
+
+
+
+<swiper autoplay interval="2000" circular indicator-dots indicator-color="#aa940f">
+  <swiper-item><image  src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2496080802,3943155079&fm=26&gp=0.jpg"/></swiper-item>
+  <swiper-item><image  src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608307437218&di=bb97ea5a764d8c605711cc4085bc1ed3&imgtype=0&src=http%3A%2F%2Fa0.att.hudong.com%2F10%2F01%2F01300000091985121196015965747.jpg"/></swiper-item>
+  <swiper-item><image  src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608307437218&di=a43ce2c6e24774888f6f6ee65ffe219c&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F11%2F10%2F01300000306956122908107110721.jpg"/></swiper-item>
+</swiper>
+<radio-group bindchange="handle">
+  <radio value="male">男</radio>
+  <radio value="female">女</radio>
+</radio-group>
+<view>{{gender}}</view>
+<button open-type="contact" size="mini">客服</button>
+

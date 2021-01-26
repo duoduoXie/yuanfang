@@ -1,0 +1,4 @@
+<!--pages/list/list.wxml-->
+  <Tabs Tabs="{{Tabs}}" binditemChange="handleItemChange"></Tabs>
+  
+      

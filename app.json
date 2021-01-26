@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/cart/cart",
+    "pages/wl/wl",
+    "pages/mine/mine"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#123456",
+    "navigationBarTitleText": "爱你所爱",
+    "navigationBarBackgroundColor": "#000000"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./assets/home.png",
+        "selectedIconPath": "./assets/home_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "./assets/cate.png",
+        "selectedIconPath": "./assets/cate_selected.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "./assets/car.png",
+        "selectedIconPath": "./assets/car_selected.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "./assets/mine.png",
+        "selectedIconPath": "./assets/mine_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

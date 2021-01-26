@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Tabs":"../../components/Tabs/Tabs"
+  },
+  "navigationBarTitleText": "首页爱你",
+  "navigationBarBackgroundColor": "#0094aa"
+}
